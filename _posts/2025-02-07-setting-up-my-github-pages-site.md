@@ -1,6 +1,6 @@
 ---
 title: Setting up my GitHub Pages site
-date: 2025-02-07 10:20 PM
+date: 2025-02-07 11:34 PM
 categories: [GitHub Pages]
 tags: [github pages, jekyll, chirpy]
 ---
