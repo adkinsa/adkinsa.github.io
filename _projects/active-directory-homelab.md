@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Active Directory Homelab
 ---
 
