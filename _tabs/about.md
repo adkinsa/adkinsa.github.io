@@ -16,6 +16,6 @@ Thanks for visiting!
 I hold a Bachelor of Applied Science degree in Supervision and Management with a management concentration. I worked very hard to earn my degree, so it is an accomplishment I am extremely proud of.
 
 ## Certifications
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="02a8cdad-4a53-4489-a00e-0134adbe71f7" data-share-badge-host="https://www.credly.com"></div> <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3729e8c5-fe70-4306-8bd8-fe27e50cc054" data-share-badge-host="https://www.credly.com"></div>
+<div data-iframe-width="150" data-iframe-height="240" data-share-badge-id="02a8cdad-4a53-4489-a00e-0134adbe71f7" data-share-badge-host="https://www.credly.com"></div> <div data-iframe-width="150" data-iframe-height="240" data-share-badge-id="3729e8c5-fe70-4306-8bd8-fe27e50cc054" data-share-badge-host="https://www.credly.com"></div>
 
 <script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script> 
