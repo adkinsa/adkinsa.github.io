@@ -5,7 +5,7 @@ categories: [Certifications, CompTIA A+]
 tags: [comptia a+]
 ---
 
-I recently obtained my CompTIA A+ certification and wanted to share my experience of how I passed both the 220-1101 (Core 1) and 220-1102 (Core 2) exams. This post will provide you with some helpful tips on how to better prepare for passing the CompTIA A+ certification.
+I recently obtained my CompTIA A+ certification and wanted to share my experience of how I passed both the Core 1 (220-1101) and Core 2 (220-1102) exams. This post will provide you with some helpful tips on how to better prepare for passing the CompTIA A+ certification.
 
 ## About the CompTIA A+
 The CompTIA A+ certification is broken up into two exams, the Core 1 and Core 2. Each exam is 90 minutes long, and you can receive a maximum of 90 questions. The exams are also scored on a scale of 900, and you need a 675 to pass Core 1, and a 700 to pass Core 2. You can learn more about the A+ certification, including exam objectives, by visiting CompTIA's website <a href="https://www.comptia.org/certifications/a" target="_blank">here</a>.
