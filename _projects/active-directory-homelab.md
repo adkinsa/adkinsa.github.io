@@ -14,43 +14,43 @@ To create this lab you will need the following:
 ## Setting Up The Lab
 ### Setting Up Windows Server 2019
 
-#### Step 1 - Create Windows Server 2019 VM
+#### Step 1: Create Windows Server 2019 VM
 The first step in setting up the lab was to create the Windows Server 2019 VM. In VirtualBox, I created a new VM using the Server 2019 ISO and assigned it 4GB of Ram and 50GB of virtual hard disk space. I also assigned the VM 2 network adapters.
 
 Network Adapters -
 * Network Adapter 1 (NAT)
 * Network Adapter 2 (Internal)
 
-#### Step 2 - Install Windows Server 2019
+#### Step 2: Install Windows Server 2019
 After creating the VM I went ahead and began the installation process. I chose the "Standard Evaluation (Desktop Experience) option and proceeded with the installation.
 ![Screenshot of Windows Server 2019 installation setup](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738070010/server-2019-installation-setup_m1vy0y.png)
 
-#### Step 3 - Rename PC
+#### Step 3: Rename PC
 After the installation was complete, I renamed the PC to "Server2019" by going to settings > system > about > rename this PC.
 
-#### Step 4 - Configure Networking
+#### Step 4: Configure Networking
 In this step, I configured the network adapters, and assigned the internal adapter the static IP `172.16.0.1`. To assign the static IP I went to the network and sharing center > change adapter settings > right-click adapter > properties > IP version 4. Later on I will set up a DHCP server to simulate an enterprise network.
 
 ![Screenshot of IP version 4 properties window](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069845/ipv4-properties_zaa8ak.png)
 
-#### Step 5 - Install Active Directory Domain Services
+#### Step 5: Install Active Directory Domain Services
 Next, I installed AD DS through the server manager dashboard by going to add roles and features and choosing Active Directory Domain Services under server roles.
 ![Screenshot of Active Directory Domain Services installation](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069506/add-roles-and-features-adds_hynmyv.png)
 
-#### Step 6 - Create Domain
+#### Step 6: Create Domain
 I created a domain for the lab named "labdomain.com". I did this by going to post-deployment configuration > promote this server to a domain controller > add a new forest.
 
 ![Screenshot of Active Directory Domain Services configuration wizard](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069528/adds-configuration-wizard_bwvpkl.png)
 
-#### Step 7 - Install RAS and NAT
+#### Step 7: Install RAS and NAT
 Next, I installed and configured RAS and NAT on the domain controller. On the server manager dashboard, I went to add roles and features and checked remote access under server roles and routing under role services. Next, I installed NAT by going to the server dashboard > tools > routing and remote access > right-click Server2019 > configure and enable routing and remote access > NAT.
 
 ![Screenshot of Routing and Remote Access setup wizard with NAT selected](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069984/routing-and-remote-access-setup-wizard_vykscq.png)
 
-#### Step 8 - Install DHCP Server
+#### Step 8: Install DHCP Server
 In this step, I installed the DHCP server by going to add roles and features on the server manager dashboard and selecting DHCP server under server roles.
 
-#### Step 9 - Configure DHCP Server
+#### Step 9: Configure DHCP Server
 Once installed, I configured the DHCP server by going to the server dashboard > tools > DHCP server. Once opened, I right-clicked IPv4 and selected new scope, then configured the name, address, and subnet mask of the scope. Next, I set the lease time to 8 days, configured the router address, set the domain controller as the dns server, and activated the scope. Finally, I right-clicked the DC and authorized it.
 
 ![Screenshot of DHCP new scope wizard](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069692/dhcp-new-scope-wizard_nhqivu.png)
@@ -60,25 +60,25 @@ The Server 2019 DC setup is now complete.
 ---
 ### Setting Up Windows 10 Clients
 
-#### Step 1 - Create Windows 10 Pro VM
+#### Step 1: Create Windows 10 Pro VM
 Now that the DC is set up, the next step is to create a Windows 10 VM to act as a client. For the network settings, I assigned the Windows 10 VM 1 internal network adapter.
 
-#### Step 2 - Install Windows 10 Pro
+#### Step 2: Install Windows 10 Pro
 In this step, I installed Windows 10 Pro on the client VM.
 
 ![Screenshot of Windows 10 installation setup](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738070150/windows-10-installation-setup_bdymjm.png)
 
-#### Step 3 - Rename PC and Join Domain
+#### Step 3: Rename PC and Join Domain
 After the installation was complete I renamed the PC to "Desktop1" and joined the domain. I did this by going to system > about > rename this PC (advanced) > computer name > change, and entering the proper credentials. The join was successful, and Desktop1 appeared under computers in the active directory users and computers tool on the DC.
 
 ![Screenshot of Desktop1 shown in Active Directory Users and Computers](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069545/aduc-desktop1-joined-domain_wyqet2.png)
 
-#### Step 4 - Verify Desktop1 Obtained Valid IP Address
+#### Step 4: Verify Desktop1 Obtained Valid IP Address
 Next, I verified that Desktop1 obtained a valide IP address from the DHCP server. I did this by running the `ipconfig` command on Desktop1 and checking the DHCP address leases on the DC.
 
 ![Screenshot of DHCP server address leases](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069666/dhcp-address-leases_gqwuz9.png)
 
-#### Step 5 - Set Up Desktop2 Windows 10 Clients
+#### Step 5: Set Up Desktop2 Windows 10 Clients
 In this last step, I set up a second Windows 10 client named "Desktop2" by repeating the steps used to set up Desktop1.
 
 ---
