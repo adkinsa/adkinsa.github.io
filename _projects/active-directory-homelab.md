@@ -176,3 +176,5 @@ RSAT tools is a useful tool that allows you to remotely manage certain features 
 In this step, I created a user account named "Helpdesk Intern" and delegated control for them to reset user account passwords. I did this by going to active directory users and computers > right-clicking domain > delegate control > and selecting the reset user passwords task. Lastly, I verified this by logging in to Desktop1 as "Helpdesk Intern" and was able to reset user passwords, while being denied the ability to perform other tasks outside of the assigned permissions.
 
 ![Screenshot of Delegation of Control Wizard](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069629/delegation-of-control_daqunb.png)
+
+This is the end of the project documentation for now. I will provide future updates as I continue to experiment with the lab and learn more about Active Directory.
