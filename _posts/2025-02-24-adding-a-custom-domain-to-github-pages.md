@@ -5,7 +5,7 @@ categories: [GitHub Pages]
 tags: [github pages]
 ---
 
-In this post I'm going to go over the steps I took to add a custom domain to my GitHub Pages site.
+In this post, I'm going to go over the steps I took to add a custom domain to my GitHub Pages site.
 
 ## Step 1: Register domain
 The first thing I did was register my domain, `aaronjadkins.com`, with <a href="https://porkbun.com/" target="_blank">Porkbun</a>.
