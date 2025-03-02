@@ -5,7 +5,7 @@ categories: [GitHub Pages]
 tags: [github pages, jekyll, chirpy]
 ---
 
-In this post I'm going to go over how I set up my website with Jekyll and GitHub Pages. I've always been curious about GitHub, so I figured this project would be a fun way to create my site and learn more about GitHub in the process. Since this is the first website I have created, I knew it was going to be a learning process, but I was up for the challenge.
+In this post, I'm going to go over how I set up my website with Jekyll and GitHub Pages. I've always been curious about GitHub, so I figured this project would be a fun way to create my site and learn more about GitHub in the process. Since this is the first website I have created, I knew it was going to be a learning process, but I was up for the challenge.
 
 ## Prerequisites
 To set up a local testing environment I installed the following tools:
