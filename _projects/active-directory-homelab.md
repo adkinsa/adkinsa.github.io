@@ -2,7 +2,7 @@
 title: Active Directory Homelab
 ---
 
-My goal for this project was to set up an Active Directory homelab to simulate a small-scale enterprise-like environment and gain hands-on experience with Active Directory. To help set up the lab, I used several Active Directory homelab tutorials, including a YouTube tutorial by <a href="https://www.youtube.com/watch?v=MHsI8hJmggI" target="_blank">Josh Madakor</a>. I also did some of my own experimentation once the lab was set up. This write-up documents my experience setting up the lab, experimenting with Active Directory, and learning about domain administration.
+My goal for this project was to set up an Active Directory homelab to simulate a small-scale enterprise environment and gain hands-on experience with Active Directory. To help set up the lab, I used several Active Directory homelab tutorials, including a YouTube tutorial by <a href="https://www.youtube.com/watch?v=MHsI8hJmggI" target="_blank">Josh Madakor</a>. I also did some of my own experimentation once the lab was set up. This write-up documents my experience setting up the lab, experimenting with Active Directory, and learning about domain administration.
 
 ## Getting Started
 To create this lab you will need the following:
