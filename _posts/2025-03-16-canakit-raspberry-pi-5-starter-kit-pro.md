@@ -25,38 +25,47 @@ Assembling the Raspberry Pi 5 was simple and straightforward, and there is even 
 
 ### Raspberry Pi 5 board
 Here is a picture of the Raspberry Pi 5 board itself:
+
 ![Raspberry Pi 5 board](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742057164/pi-5-board_tbzqdu.jpg)
 
 ### Step 1: Attach heat sink
 The first step is to attach the heat sink. Remove the covers from the thermal pads on the bottom of the heatsink, align the heat sink with the chips on the Pi board, and press down firmly.
+
 ![Raspberry Pi 5 board with heat sink attached](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742057230/pi-5-board-with-heatsink_ufwtfw.jpg)
 
 ### Step 2: Insert Pi board into bottom casing
 Carefully insert the Raspberry Pi 5 board into the bottom casing.
+
 ![Raspberry Pi 5 board inserted into bottom casing](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742057184/pi-5-board-in-bottom-casing_eym4ok.jpg)
 
 ### Step 3: Attach fan
 Remove the cap from the fan connector on the Pi board and connect the fan cable.
+
 ![Raspberry Pi 5 board with fan attached](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742057208/pi-5-board-with-fan-attached_em3nnx.jpg)
 
 ### Step 4: Connect middle casing
 Connect the middle casing to the bottom casing.
+
 ![Raspberry Pi 5 with middle and bottom casing connected](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742057253/pi-5-with-middle-casing-attached_poy4jv.jpg)
 
 ### Step 5: Attach fan to top casing
 Attach the fan to the top casing with the design facing outward.
+
 ![Fan attached to top casing of Raspberry Pi 5 case](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742057118/fan-attached-to-top-cover_zj2vd8.jpg)
 
 ### Step 6: Attach top casing
 Attach the top casing to the Pi case to finish the assembly.
+
 ![Raspberry Pi 5 case fully assembled](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742057141/pi-5-assembled_pjlzeb.jpg)
 
 ### Step 7: Insert MicroSD card
 Insert the MicroSD card into the MicroSD card slot on the Raspberry Pi 5. The MicroSD card included in the kit comes pre-loaded with Pi OS. If your using another SD card, you can download the Raspberry Pi Imager from [raspberrypi.com/software](https://www.raspberrypi.com/software/){:target="_blank"} to create a bootable SD card.
+
 ![MicroSD card inserted into MicroSD card slot on Raspberry Pi 5](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742142992/pi-os-microsd-card-inserted-into-pi-5-sd-card-slot_jksmtu.jpg)
 
 ### Step 8: Boot and Setup
 Boot the Raspberry Pi 5 after connecting the 45W USB C power supply, micro HDMI cable, and any peripherals. Once you complete the desktop setup wizard, you'll be greeted with the Raspberry Pi OS desktop.
+
 ![Screenshot of Raspberry Pi OS desktop](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742057280/pi-os-desktop_xz8feh.jpg)
 
 Updates should have been applied during setup. However, you can make sure everything is updated by running the following commands:
