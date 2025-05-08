@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 5
+order: 6
 ---
 
 Hi, my name is Aaron, and I'm passionate about IT. Ever since I was young, I've had a love for computers and technology. After taking several tech-related courses in college, my passion for IT grew even stronger, and that's when I knew I wanted to pursue a career in IT. Although my professional experience so far has been in retail and other industries, I am actively seeking an opportunity to begin my career in IT and am eager to continue learning and growing.

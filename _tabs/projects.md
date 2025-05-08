@@ -1,6 +1,6 @@
 ---
-icon: fas fa-briefcase
-order: 4
+icon: fa-solid fa-folder
+order: 5
 ---
 
 * [Active Directory Homelab]({% link _projects/active-directory-homelab.md %})
