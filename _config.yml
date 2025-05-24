@@ -98,7 +98,7 @@ theme_mode:
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "https://res.cloudinary.com/do8uy1fxa/image/upload/v1748108947/profile-picture_c1nviy.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
