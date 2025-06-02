@@ -24,9 +24,9 @@ To create a bootable flash drive, I used Rufus, which can be downloaded from [ru
 ![Screenshot of Rufus with onn 16GB flash drive and Proxmox VE 8.4 ISO selected](https://res.cloudinary.com/do8uy1fxa/image/upload/v1748624050/creating-proxmox-bootable-flash-drive-with-rufus_nv7yfy.png)
 
 ### Step 3: Boot from the Proxmox flash drive
-Next, I plugged the flash drive into the mini PC and booted from it.
+Next, I plugged the flash drive into the Beelink Mini S13 Mini PC and booted from it.
 
-![Beelink Mini S13 Mini PC with Proxmox flash drive plugged in](https://res.cloudinary.com/do8uy1fxa/image/upload/v1748624029/beelink-mini-s13-mini-pc-with-proxmox-flash-drive_wd9nyf.jpg)
+![Beelink Mini S13 Mini PC with Proxmox flash drive plugged in](https://res.cloudinary.com/do8uy1fxa/image/upload/v1748885799/beelink-mini-s13-mini-pc-with-proxmox-flash-drive-plugged-in_qvvtpa.jpg)
 
 ### Step 4: Install Proxmox
 At the Proxmox installer welcome screen, I chose the option "**Install Proxmox VE (Graphical)**" and then proceeded with the installation. During the installation process, I assigned the server a static IP address after verifying the DHCP scope of my router to ensure there were no IP address conflicts.
