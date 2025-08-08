@@ -19,4 +19,4 @@ I hold a Bachelor of Applied Science degree in Supervision and Management from D
 
 <span data-iframe-width="150" data-iframe-height="270" data-share-badge-id="02a8cdad-4a53-4489-a00e-0134adbe71f7" data-share-badge-host="https://www.credly.com"></span> <span data-iframe-width="150" data-iframe-height="270" data-share-badge-id="26724f1b-7075-4181-a5ab-e28803da16f3" data-share-badge-host="https://www.credly.com"></span> <span data-iframe-width="150" data-iframe-height="270" data-share-badge-id="d1c38567-83a8-4c7e-bba7-ea2b721e8aa8" data-share-badge-host="https://www.credly.com"></span>
 
-<script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<script type="text/javascript" async src="https://cdn.credly.com/assets/utilities/embed.js"></script>
