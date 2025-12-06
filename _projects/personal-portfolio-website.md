@@ -9,5 +9,6 @@ For this project, I created my personal portfolio website, [aaronjadkins.com](ht
 ## Related Posts
 
 You can read about how I set up the website and added a custom domain in these posts:
+
 * [Setting up my GitHub Pages site]({% link _posts/2025-02-07-setting-up-my-github-pages-site.md %})
 * [Adding a custom domain to GitHub Pages]({% link _posts/2025-02-24-adding-a-custom-domain-to-github-pages.md %})

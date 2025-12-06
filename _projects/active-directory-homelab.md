@@ -7,6 +7,7 @@ My goal for this project was to set up an Active Directory homelab to simulate a
 ## Getting Started
 
 To create this lab you will need the following:
+
 * <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>
 * <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019" target="_blank">Windows Server 2019 ISO</a>
 * <a href="https://www.microsoft.com/en-us/software-download/windows10" target="_blank">Windows 10 ISO</a>
@@ -20,6 +21,7 @@ To create this lab you will need the following:
 The first step in setting up the lab was to create the Windows Server 2019 VM. In VirtualBox, I created a new VM using the Server 2019 ISO and assigned it 4GB of Ram and 50GB of virtual hard disk space. I also assigned the VM 2 network adapters.
 
 Network Adapters -
+
 * Network Adapter 1 (NAT)
 * Network Adapter 2 (Internal)
 
