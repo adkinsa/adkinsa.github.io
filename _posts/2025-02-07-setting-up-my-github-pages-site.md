@@ -64,6 +64,7 @@ To preview the site, I ran the command `bundle exec jekyll s` in the VS Code ter
 ## Step 8: Push changes to GitHub
 
 Finally, I pushed the changes I made to the site by running the following code:
+
 ```shell
 git add .
 git commit -m 'commit message'

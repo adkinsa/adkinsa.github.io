@@ -80,10 +80,12 @@ Boot the Raspberry Pi 5 after connecting the 45W USB C power supply, micro HDMI 
 ![Screenshot of Raspberry Pi OS desktop](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742057280/pi-os-desktop_xz8feh.jpg)
 
 Updates should have been applied during setup. However, you can make sure everything is updated by running the following commands:
+
 ```shell
 sudo apt update
 sudo apt full-upgrade
 ```
+
 The Raspberry Pi 5 is now fully assembled and up and running.
 
 Overall, I'm happy with the CanaKit Raspberry Pi 5 Starter Kit PRO. The starter kit came with everything needed to get started, and the Raspberry Pi 5 was easy to assemble. I'm excited to start experimenting with the Raspberry Pi 5 and I will provide future posts on some of the things I have done with it.
