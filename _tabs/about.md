@@ -11,6 +11,7 @@ I created this website to share my technical projects and homelab, and to blog a
 Thanks for visiting!
 
 ## Education
+
 * **Bachelor of Applied Science in Supervision and Management (Daytona State College)**
 
 I hold a Bachelor of Applied Science degree in Supervision and Management from Daytona State College. I worked very hard to earn my degree, so it's an accomplishment I'm extremely proud of.
