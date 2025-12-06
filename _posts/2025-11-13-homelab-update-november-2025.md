@@ -18,6 +18,7 @@ The rack was easy to build and you can pretty much customize it however you want
 The T1 comes with a 1U shelf, an SBC shelf, and 3 1U blank panels. I also purchased another 1U shelf and a 12 port patch panel. For the most part, my hardware is the same. It's not the most impressive hardware, but it gets the job done and is perfectly sized for the rack.
 
 Here's a quick rundown of the rack from top to bottom:
+
 * 12 port patch panel
 * TP-Link TL-SG108e 8-Port Gigabit Managed Switch
 * (Left) KingSpec 256GB 2.5" SATA 3 SSD; (Right) Raspberry Pi 5 (8GB RAM)

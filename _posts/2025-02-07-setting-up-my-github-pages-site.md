@@ -10,6 +10,7 @@ In this post, I'm going to go over how I set up my website with Jekyll and GitHu
 ## Prerequisites
 
 To set up a local testing environment I installed the following tools:
+
 * <a href="https://git-scm.com/downloads" target="_blank">Git</a>
 * <a href="https://rubyinstaller.org/downloads/" target="_blank">Ruby</a>
 * Jekyll

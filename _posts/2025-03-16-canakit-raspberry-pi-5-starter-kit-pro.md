@@ -10,6 +10,7 @@ In this post, I'm going to share my experience with the CanaKit Raspberry Pi 5 S
 ## Starter Kit Contents
 
 Here is a list of everything that is included in the starter kit:
+
 * Raspberry Pi 5 board with 2.4Ghz 64-bit quad-core CPU (8GB RAM)
 * 128GB Samsung MicroSD card (pre-loaded with Pi OS)
 * USB MicroSD card reader
