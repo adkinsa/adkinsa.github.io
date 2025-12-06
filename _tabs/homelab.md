@@ -14,6 +14,7 @@ This is my DeskPi RackMate T1 10 inch mini server rack. Here's a quick rundown o
 ## Hardware
 
 Here is a detailed list of all my homelab hardware:
+
 * GL.iNet GL-MT3000 Beryl AX Travel Router
 * TP-Link TL-SG108e 8-Port Gigabit Managed Switch
 * Beelink Mini S13 Mini PC
@@ -25,6 +26,7 @@ Here is a detailed list of all my homelab hardware:
 I currently use VirtualBox for all of my virtual machine needs. This lets me experiment with running different operating systems and learn about new technologies in a sandboxed environment. As of right now, my VirtualBox environment consists of several Linux VMs, as well as an Active Directory environment made up of a Windows Server 2019 domain controller and 2 Windows 10 client machines.
 
 Virtual Machines:
+
 * Windows Server 2019
 * Windows 10 x 2
 * Ubuntu 24.04
