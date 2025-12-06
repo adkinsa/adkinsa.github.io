@@ -8,6 +8,7 @@ tags: [proxmox, windows 11]
 This post will provide you with a step-by-step guide on how to install Windows 11 on Proxmox. When installing Windows 11 on Proxmox, you'll need the VirtIO drivers. You should also keep in mind the minimum system requirements for Windows 11. The system requirements for Windows 11 can be found on Microsoft's official website [here](https://www.microsoft.com/en-us/windows/windows-11-specifications){:target="_blank"}.
 
 ## Step 1: Download Windows 11 and VirtIO drivers ISO images
+
 1\. Download the Windows 11 ISO from [https://www.microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11){:target="_blank"}.
 
 ![Windows 11 download page](https://res.cloudinary.com/do8uy1fxa/image/upload/v1760719268/windows-11-download-page_rgjelh.png)
@@ -17,11 +18,13 @@ This post will provide you with a step-by-step guide on how to install Windows 1
 ![VirtIO drivers download page](https://res.cloudinary.com/do8uy1fxa/image/upload/v1760719226/virtio-drivers-download-page_aks5ot.png)
 
 ## Step 2: Upload ISO images to Proxmox
+
 1\. Upload the Windows 11 and VirtIO drivers ISO images to Proxmox by clicking the node > local storage > ISO Images > Upload.
 
 ![Proxmox ISO image upload window](https://res.cloudinary.com/do8uy1fxa/image/upload/v1760719208/upload-iso-images_p3h1be.png)
 
 ## Step 3: Create Windows 11 VM
+
 1\. To create a new VM in the Proxmox dashboard, select the appropriate node and click on **Create VM** in the top right corner.
 
 2\. On the **General** tab, assign the virtual machine a VM ID (you can leave it as default if you want) and a name.
@@ -57,6 +60,7 @@ This post will provide you with a step-by-step guide on how to install Windows 1
 ![Proxmox create virtual machine window Confirm tab](https://res.cloudinary.com/do8uy1fxa/image/upload/v1760718762/create-windows-11-vm-8_z58n9x.png)
 
 ## Step 4: Install Windows 11
+
 1\. Start the Windows 11 VM by selecting it on the sidebar, selecting **Console**, and clicking **Start Now**.
 
 ![Proxmox dashboard showing the Windows 11 VM console](https://res.cloudinary.com/do8uy1fxa/image/upload/v1760719188/start-windows-11-vm_yxvime.png)

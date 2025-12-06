@@ -10,9 +10,11 @@ I recently installed Kali Linux on VirtualBox to use as an attack machine for co
 Before getting started, make sure that virtualization is enabled in your computer's BIOS.
 
 ## Step 1: Download and install VirtualBox
+
 Download and install VirtualBox from [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads){:target="_blank"}.
 
 ## Step 2: Download Kali Linux ISO
+
 1\. Go to [https://www.kali.org/](https://www.kali.org/){:target="_blank"}.
 
 ![Screenshot of kali.org](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743871841/kali.org_ooae21.png)
@@ -24,6 +26,7 @@ Download and install VirtualBox from [https://www.virtualbox.org/wiki/Downloads]
 3\. On the Installer Images page, choose "**x86_64**" and click on the blue down arrow to download.
 
 ## Step 3: Create a new virtual machine in VirtualBox
+
 1\. Open VirtualBox and click on the "**New**" button.
 
 ![VirtualBox interface](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743872381/virtualbox-interface_o5gks9.png)
@@ -45,6 +48,7 @@ Download and install VirtualBox from [https://www.virtualbox.org/wiki/Downloads]
 ![VirtualBox create virtual machine window showing machine summary](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743872493/virtualbox-machine-summary_sxtgpk.png)
 
 ## Step 4: Configure virtual machine settings
+
 1\. Click on the "**Settings**" button at the top of the window.
 
 ![VirtualBox interface showing Kali Linux machine](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743872403/virtualbox-interface-showing-new-kali-machine_mgbmkl.png)
@@ -58,6 +62,7 @@ Download and install VirtualBox from [https://www.virtualbox.org/wiki/Downloads]
 ![VirtualBox settings window with the display tab selected](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743872426/virtualbox-kali-linux-machine-settings-display_qk0bxz.png)
 
 ## Step 5: Install Kali Linux
+
 1\. Start the virtual machine by clicking on the "**Start**" button.
 
 2\. On the Kali Linux installer menu, choose "**Graphical Install**" and press enter.

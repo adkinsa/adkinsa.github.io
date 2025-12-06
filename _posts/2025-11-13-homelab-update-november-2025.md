@@ -8,6 +8,7 @@ tags: [homelab]
 I consider my homelab to be an ongoing project. It's something I'm always working on and making changes to. I've been documenting and sharing my progress along the way in hopes of inspiring fellow homelabbers, just as I've been inspired by others. In this post, I'm going to give a quick update on some of the recent changes I've made to my homelab and what I plan on working on in the near future.
 
 ## DeskPi RackMate T1
+
 After gaining some inspiration from the subreddit [r/homelab](https://www.reddit.com/r/homelab/){: target="_blank"} and YouTubers like [Jeff Geerling](https://www.youtube.com/@JeffGeerling){: target="_blank"}, I finally decided to take my homelab to the next level by adding a rack. I decided to go with the DeskPi RackMate T1 from DeskPi's RackMate series. If you're interested, you can learn more about the RackMate T1 on DeskPi's official website [here](https://deskpi.com/products/deskpi-rackmate-t1-2){: target="_blank"}. This seemed to be a popular choice within the homelab community, and its small 10-inch form factor was perfect for my needs. As much as I would like to have a full-size 19-inch rack, it's just not necessary or feasible for me at this point. Maybe one day!
 
 The rack was easy to build and you can pretty much customize it however you want. After I finished building it, I made a spot for it on one of the bottom shelves of my desk and worked on some of the cable management. Here's what it looks like:
@@ -36,6 +37,7 @@ To help keep the rack organized, I also got these Monoprice Cat6A SlimRun series
 The Monoprice patch cables were a little more expensive than some of the alternatives, but they seemed to be popular among other homelabbers. I got both 0.5 ft and 1 ft cables to reach different shelves on my rack as needed. So far I'm happy with them. They're well-built and much thinner than normal ethernet cables, so they help with the cable management.
 
 ## Docker and Portainer
+
 Lately, I've been focusing more on Docker and learning how to use it from the command line. One of the first services I ran on my Raspberry Pi 5 was CasaOS, which is essentially a user-friendly dashboard for managing Docker containers. Since then, I've moved away from CasaOS and switched to Portainer as a dashboard for managing my Docker containers. Here's a screenshot of my Portainer dashboard:
 
 ![Screenshot of Portainer dashboard homepage](https://res.cloudinary.com/do8uy1fxa/image/upload/v1762623274/portainer-dashboard_h60ulb.png)
@@ -43,7 +45,9 @@ Lately, I've been focusing more on Docker and learning how to use it from the co
 I'm currently running 3 containers: Portainer, Pi-hole, and Nginx Proxy Manager. Right now I'm working on configuring both Pi-hole and Nginx Proxy Manager. My plan is to use Pi-hole in combination with Nginx Proxy Manager to enable HTTPS for my self-hosted services and access them using custom domain names. That way I can access each service by its domain name instead of having to type an IP address and port number.
 
 ## Proxmox
+
 Not much has changed with my Proxmox server over the past few months. The only changes really have been that I upgraded to Proxmox VE 9 and added a new Windows 11 VM. So now I have an Ubuntu VM and a Windows 11 VM on my node pve1. I plan on adding some LXC containers to see how they compare to Docker containers, as well as some more VMs when I have the time.
 
 ## Future Plans
+
 In addition to what I've already mentioned, these are some of the things I plan on working on in my homelab. First, I plan on segmenting my network with VLANs. This is a good security best practice and will also give me some hands-on experience with configuring VLANs. Next, I'm going to work on setting up a NAS with either my Raspberry Pi 5 or the network storage and sharing functionality of my router. I also plan on self hosting some more services once I finish configuring Pi-hole and Nginx Proxy Manager.

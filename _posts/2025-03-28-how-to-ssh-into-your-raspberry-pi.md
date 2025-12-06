@@ -8,9 +8,11 @@ tags: [raspberry pi, ssh]
 SSH is a network protocol used to establish a secure remote connection between two devices. This is useful because it lets you remotely access and control your Raspberry Pi without needing a monitor, keyboard, or mouse. In this post, I will walk you through the steps on how to SSH into your Raspberry Pi.
 
 ## Step 1: Enable SSH
+
 The first step is to enable SSH. This can be done using the Raspberry Pi Imager or on the Raspberry Pi.
 
 ### Enable SSH using the Raspberry Pi Imager
+
 1\. Open the Raspberry Pi Imager.
 
 2\. Choose your device, operating system, and storage, then click next.
@@ -30,6 +32,7 @@ The first step is to enable SSH. This can be done using the Raspberry Pi Imager 
 ![Raspberry Pi Imager OS customization window with Services tab selected](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007293/raspberry-pi-imager-customization-services_rcikee.png)
 
 ### Enable SSH on the Raspberry Pi
+
 1\. On the Raspberry Pi desktop, go to the main menu and select Preferences > Raspberry Pi Configuration.
 
 2\. Navigate to the Interfaces tab and enable SSH.
@@ -37,6 +40,7 @@ The first step is to enable SSH. This can be done using the Raspberry Pi Imager 
 ![Raspberry Pi Configuration menu with SSH enabled](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007094/pi-os-configuration-window-ssh-enabled_vjp7yj.png)
 
 ## Step 2: Find the Raspberry Pi's IP Address
+
 You can find out your Raspberry Pi's IP Address by using one of the following methods: 
 
 1\. Running the command `ifconfig` on the Raspberry Pi.
@@ -48,9 +52,11 @@ or
 ![Pinging Raspberry Pi using hostname](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007075/command-prompt-ping-raspberry-pi_m1j0cc.png)
 
 ## Step 3: SSH into Raspberry Pi
+
 We're now ready to SSH into the Raspberry Pi.
 
 ### SSH into Raspberry Pi on Mac/Linux
+
 On Mac or Linux, open a terminal and run the command: 
 
 `ssh [username]@[hostname]`
@@ -60,6 +66,7 @@ or
 `ssh [username]@[ip address]`
 
 ### SSH into Raspberry Pi on Windows
+
 On Windows you will need an SSH client. In this example we will be using Putty.
 
 1\. Download Putty from [putty.org](https://www.putty.org/){:target="_blank"}.

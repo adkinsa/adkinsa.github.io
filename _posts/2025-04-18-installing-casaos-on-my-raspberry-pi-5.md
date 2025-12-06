@@ -10,6 +10,7 @@ One of my goals for this year is to invest more time and effort into homelabbing
 After looking into various alternatives for self-hosting on the Raspberry Pi, I decided to give **CasaOS** a try. CasaOS is software that runs on top of your host operating system and provides a user-friendly interface for managing Docker applications. It also comes with a built-in app store with a bunch of applications to choose from, as well as an option to manually install applications using Docker images.
 
 ## Installing CasaOS
+
 The first thing I did was go to the CasaOS website at [https://casaos.zimaspace.com/](https://casaos.zimaspace.com/){:target="_blank"}.
 
 ![Screenshot of casaos.zimaspace.com landing page](https://res.cloudinary.com/do8uy1fxa/image/upload/v1744852048/casaos-website_fs5gvz.png)
@@ -21,6 +22,7 @@ Next, I copied and pasted the curl command `curl -fsSL https://get.casaos.io | s
 Once the installation was complete, it showed that **CasaOS v0.4.15** was running at `http://192.168.0.33` which is the IP address of the Pi. Next, I opened up a browser and went to the address that was listed. I was then greeted with the CasaOS welcome page and prompted to create an account.
 
 ## CasaOS Dashboard
+
 After logging in, I was greeted with the CasaOS dashboard.
 
 ![CasaOS dashboard after first login](https://res.cloudinary.com/do8uy1fxa/image/upload/v1744851946/casaos-dashboard_dnsqqh.png)
@@ -40,4 +42,5 @@ Another added benefit is that the dashboard comes with a built-in terminal and l
 ![CasaOS logs interface](https://res.cloudinary.com/do8uy1fxa/image/upload/v1744852031/casaos-terminal-and-logs_d4tvfz.png)
 
 ## Conclusion
+
 Overall, CasaOS was easy to install, and I'm impressed by its built-in features and the vast number of applications it has to offer in the app store. I'm excited to start experimenting with running different applications and services, and to put the Raspberry Pi to use in my homelab. This will also provide me with the opportunity to learn more about Docker and containerization. As I continue to experiment with CasaOS, I will provide future updates on some of the changes I have made and services I am running. 

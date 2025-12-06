@@ -8,6 +8,7 @@ tags: [subnetting]
 In this post, I'm going to go over the basics of IPv4 subnetting. Subnetting is a complex topic that takes time and practice to learn, and sometimes it helps to see it taught from a different perspective. My hope is that this post will help you gain a better understanding of subnetting and potentially give you that "Aha!" moment. I'm also assuming that if you're reading this post, you already have a basic understanding of IPv4 and concepts such as binary and subnet masks. So, I'll only provide a brief overview of the basics before going over subnetting. 
 
 ## IPv4 Address
+
 An IPv4 address is a 32-bit address, written in decimal format, that is used to uniquely identify a device on a network. It is separated into 4 8-bit sections called "octets," with each octet containing a number ranging from 0 to 255. Each bit in an octet has a corresponding decimal value and is either a 0 or 1, which corresponds to being off or on. In binary, the value of every bit is calculated using a power of 2, and the bit only has value if it is on. For example, in the table below, the value of the leftmost bit would be calculated as 2<sup>7</sup> = 128.
 
 **8 bit octet chart**
@@ -25,6 +26,7 @@ An IPv4 address is a 32-bit address, written in decimal format, that is used to 
 |           | 8 bits    | 8 bits    | 8 bits    | 8 bits    |
 
 ## Subnet Mask
+
 The subnet mask is a 32-bit address that is used to identify the network and host portions of an IP address. In the example below, we have the IP address `192.168.1.0` with a subnet mask of `255.255.255.0`. This means that the first 3 octets (or 24 bits) represent the network portion of the address, while the last octet (or 8 bits) represents the host portion. So, to calculate our number of hosts, we take 2 to the power of 8, which is our number of host bits, and that gives us 2<sup>8</sup> = 256. We then subtract 2 addresses for our network and broadcast address, which gives us 254 usable hosts ranging from `192.168.1.1` to `192.168.1.254`.
 
 |               | Network  | Network  | Network  | Host     |
@@ -34,6 +36,7 @@ The subnet mask is a 32-bit address that is used to identify the network and hos
 | Subnet Binary | 11111111 | 11111111 | 11111111 | 00000000 |
 
 ## Public IPv4 Address Ranges
+
 This table provides an overview of the public IPv4 address ranges.
 
 | Class            | Range   | Default Subnet Mask | # of Networks | # of Hosts |
@@ -45,6 +48,7 @@ This table provides an overview of the public IPv4 address ranges.
 | E (Experimental) | 240-255 |                     |               |            |
 
 ## Private IPv4 Addresses RFC 1918
+
 This table provides an overview of the private IPv4 address ranges as defined by RFC 1918. These address ranges are reserved for use in private networks and are not routable on the public internet.
 
 | Class | Range                       | CIDR Prefix (Subnet Mask)    |
@@ -54,6 +58,7 @@ This table provides an overview of the private IPv4 address ranges as defined by
 | C     | 192.168.0.0-192.168.255.255 | 192.168.0.0/16 (255.255.0.0) |
 
 ## CIDR
+
 CIDR, or Classless Inter-Domain Routing, is a standard that allows for a more efficient method of IP address allocation compared to the old classful-based system. With the old classful-based system, each IPv4 address class had a fixed number of network and host bits and a predetermined subnet mask. That method was very inefficient and led to a lot of wasted IP addresses. With CIDR, you can assign a subnet mask or prefix based on your individual needs, reducing the number of wasted IP addresses.
 
 The way CIDR works is that you have an IP address followed by a slash and a number, which corresponds to the prefix length, or number of network bits. For example, `192.168.1.0/24` represents a prefix length of /24, meaning that the first 24 bits are associated with the network portion. Below is a table showing the CIDR prefix lengths along with the associated decimal subnet mask and number of network and host bits.
@@ -94,6 +99,7 @@ The way CIDR works is that you have an IP address followed by a slash and a numb
 | /32  | 255.255.255.255 | 32           | 0         |
 
 ## Subnetting
+
 In this section, I'm going to cover two different approaches to subnetting, known as FLSM (Fixed Length Subnet Mask) and VLSM (Variable Length Subnet Mask). Subnetting is simply the process of taking a larger network and breaking it into several smaller ones. This also provides many benefits, such as improved network performance, easier management, and better security, just to name a few.
 
 With subnetting, what you're doing is borrowing host bits to create the desired number of networks. You can calculate the number of networks using the formula **2<sup>n</sup>**, where n equals the number of borrowed host bits. To calculate the number of usable hosts, you use the formula **2<sup>n</sup>-2**, where n is the number of host bits. Another important aspect is the bit values, which are used to determine the block size. Below, I have included tables of the formulas and block sizes for reference. 
@@ -110,6 +116,7 @@ With subnetting, what you're doing is borrowing host bits to create the desired 
 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 
 ### FLSM
+
 FLSM (Fixed Length Subnet Mask) is a subnetting method in which all subnets use the same subnet mask and have the same number of hosts.
 
 **Example**
@@ -124,6 +131,7 @@ As an example, let's say I start with the network `192.168.1.0/24` and need to c
 | Broadcast Address | 192.168.1.127  | 192.168.1.255    |
 
 ### VLSM
+
 VLSM (Variable Length Subnet Mask) is a more efficient subnetting method that allows the creation of subnets of varying sizes using different subnet masks. VLSM is a little more complicated than FLSM, but it still follows the same general principles of subnetting.
 
 **Example**
@@ -146,6 +154,7 @@ Next, we would move on to subnet 2 and assign it a network address of `192.168.1
 | Block Size | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
 
 ## Subnetting Cheat Sheet
+
 Below is a subnetting cheat sheet chart that can help you quickly identify the CIDR prefix length, decimal subnet mask, and the number of networks and addresses.
 
 | CIDR |     |     |     | Subnet Mask | Networks | Addresses |
