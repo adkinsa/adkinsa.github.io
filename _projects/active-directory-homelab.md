@@ -6,7 +6,7 @@ My goal for this project was to set up an Active Directory homelab to simulate a
 
 ## Getting Started
 
-To create this lab you will need the following:
+Here's a list of the resources I used to create this lab:
 
 * <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>
 * <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019" target="_blank">Windows Server 2019 ISO</a>
@@ -95,7 +95,7 @@ Next, I verified that Desktop1 obtained a valide IP address from the DHCP server
 
 ![Screenshot of DHCP server address leases](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069666/dhcp-address-leases_gqwuz9.png)
 
-#### Step 5: Set Up Desktop2 Windows 10 Clients
+#### Step 5: Set Up Desktop2 Windows 10 Client
 
 In this last step, I set up a second Windows 10 client named "Desktop2" by repeating the steps used to set up Desktop1.
 
@@ -211,4 +211,8 @@ In this step, I created a user account named "Helpdesk Intern" and delegated con
 
 ![Screenshot of Delegation of Control Wizard](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738069629/delegation-of-control_daqunb.png)
 
-This is the end of the project documentation for now. I will provide future updates as I continue to experiment with the lab and learn more about Active Directory.
+## AD Environment Update (Windows Server 2022 & Windows 11)
+
+The latest major change I made was rebuilding the Active Directory environment using Windows Server 2022 and Windows 11. I rebuilt the environment almost exactly the same, except for changing the domain name to `adhomelab.internal`, assigning the internal network adapter a static IP of `10.0.0.1`, and changing the DHCP scope to `10.0.0.100-200`. This process helped me practice installing the necessary tools and services and configuring the environment. The screenshot below shows the Windows Server 2022 VM on the left and the Windows 11 domain-joined VM on the right.
+
+![Screenshot of Windows Server 2022 and Windows 11 VMs](https://res.cloudinary.com/do8uy1fxa/image/upload/v1768158919/windows-server-2022-and-windows-11-vms_wbbqry.png)
