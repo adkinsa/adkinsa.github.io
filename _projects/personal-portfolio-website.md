@@ -4,7 +4,7 @@ title: Personal Portfolio Website
 
 ![Screenshot of aaronjadkins.com](https://res.cloudinary.com/do8uy1fxa/image/upload/v1748306618/aaronjadkins.com-screenshot_ghmdk0.png)
 
-For this project, I created my personal portfolio website, [aaronjadkins.com](https://aaronjadkins.com/) (this website), using Jekyll, GitHub Pages, and the [Chirpy Jekyll theme](https://github.com/cotes2020/jekyll-theme-chirpy){:target="_blank"}. I created this website to showcase my certifications, technical projects, and homelab. I also started a blog where I write about projects I'm working on, how-to guides, and other tech-related topics. This project is still ongoing, as I'm continually updating and adding new content to the site.
+For this project, I created my personal portfolio website, `aaronjadkins.com`, using GitHub Pages, Jekyll, and the [Chirpy Jekyll theme](https://github.com/cotes2020/jekyll-theme-chirpy){:target="_blank"}. Setting up a custom domain gave me hands-on experience with domain management and DNS configuration. I created this website to showcase my certifications, technical projects, and homelab. I also started a blog where I write about projects I'm working on, how-to guides, and other tech-related topics. This project is still ongoing, as I'm continually updating and adding new content to the site.
 
 ## Related Posts
 
