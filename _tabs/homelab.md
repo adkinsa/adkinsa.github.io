@@ -3,7 +3,7 @@ icon: fa-solid fa-computer
 order: 4
 ---
 
-> Page last updated on Jan 9, 2026
+> Page last updated on Jan 16, 2026
 {: .prompt-info }
 
 This is an overview of my current homelab setup. Having a homelab allows me to learn about new technologies and practice building my skillset. My homelab is always changing and evolving, so I'll do my best to keep this page updated to reflect its current state.
@@ -31,11 +31,11 @@ I'm running a Proxmox server on my Beelink Mini S13 Mini PC with an Intel N150 4
 
 Virtual Machines:
 
-* ubuntu-24.04.3
+* ubuntu-24.04
 * windows11
-* ubuntu-server-24.04.3 (Docker host)
+* ubuntu-server-24.04 (Docker host)
 
-![Screenshot of Proxmox webui with node pve1 highlighted](https://res.cloudinary.com/do8uy1fxa/image/upload/v1767810779/proxmox-webui-pve1_eoveyh.png)
+![Screenshot of Proxmox dashboard with node pve1 highlighted](https://res.cloudinary.com/do8uy1fxa/image/upload/v1768596725/proxmox-dashboard-node-pve1_w6jrn9.png)
 
 ### VirtualBox
 
@@ -46,9 +46,9 @@ Virtual Machines:
 * Windows 11 Desktop1
 * Windows Server 2022
 * Kali Linux
-* Ubuntu 24.04.3
+* Ubuntu 24.04
 
-![Screenshot of VirtualBox VMs](https://res.cloudinary.com/do8uy1fxa/image/upload/v1767810854/virtualbox-vms_wkzxby.png)
+![Screenshot of VirtualBox virtual machines](https://res.cloudinary.com/do8uy1fxa/image/upload/v1768596742/virtualbox-virtual-machines_qkh3ze.png)
 
 ## Software/Services
 
