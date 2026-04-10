@@ -67,26 +67,24 @@ or
 
 ### SSH into Raspberry Pi on Windows
 
-On Windows you will need an SSH client. In this example we will be using Putty.
+On Windows you will need an SSH client. In this example we will be using PuTTY.
 
-1\. Download Putty from [putty.org](https://www.putty.org/){:target="_blank"}.
+1\. Download PuTTY from [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){:target="_blank"}
 
-![Screenshot of putty.org](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007131/putty.org-screenshot_iwwbyq.png)
-
-2\. Open Putty.
+2\. Open PuTTY
 
 3\. Enter the Raspberry Pi's hostname or IP Address, make sure the connection type is set to SSH, then click open.
 
-![Putty connection interface](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007152/putty-connection-interface_d5ivet.png)
+![PuTTY connection interface](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007152/putty-connection-interface_d5ivet.png)
 
 4\. You may receive a warning about the server's host key not being cached. Click yes.
 
 5\. Enter the username and password for your Raspberry Pi and press enter.
 
-![Entering Raspberry Pi's credentials in Putty terminal](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007187/putty-terminal-login_h1orev.png)
+![Entering Raspberry Pi's credentials in PuTTY terminal](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007187/putty-terminal-login_h1orev.png)
 
 6\. You should now be logged into your Raspberry Pi.
 
-![Putty terminal logged into Raspberry Pi as user Pi](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007221/putty-terminal-ssh-connection-established_gdkxfe.png)
+![PuTTY terminal logged into Raspberry Pi as user Pi](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743007221/putty-terminal-ssh-connection-established_gdkxfe.png)
 
 7\. Once you're done, you can close the session by typing `exit`.
