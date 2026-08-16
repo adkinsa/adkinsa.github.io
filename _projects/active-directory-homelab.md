@@ -2,15 +2,15 @@
 title: Active Directory Homelab
 ---
 
-My goal for this project was to set up an Active Directory homelab to simulate a small-scale enterprise environment and gain hands-on experience with Active Directory. To help set up the lab, I used several Active Directory homelab tutorials, including a YouTube tutorial by <a href="https://www.youtube.com/watch?v=MHsI8hJmggI" target="_blank">Josh Madakor</a>. I also did some of my own experimentation once the lab was set up. This write-up documents my experience setting up the lab, experimenting with Active Directory, and learning about domain administration.
+My goal for this project was to set up an Active Directory homelab to simulate a small-scale enterprise environment and gain hands-on experience with Active Directory. To help set up the lab, I used several Active Directory homelab tutorials, including a YouTube tutorial by [Josh Madakor](https://www.youtube.com/watch?v=MHsI8hJmggI). I also did some of my own experimentation once the lab was set up. This write-up documents my experience setting up the lab, experimenting with Active Directory, and learning about domain administration.
 
 ## Getting Started
 
 Here's a list of the resources I used to create this lab:
 
-* <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">VirtualBox</a>
-* <a href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019" target="_blank">Windows Server 2019 ISO</a>
-* <a href="https://www.microsoft.com/en-us/software-download/windows10" target="_blank">Windows 10 ISO</a>
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Windows Server 2019 ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019)
+* [Windows 10 ISO](https://www.microsoft.com/en-us/software-download/windows10)
 
 ## Setting Up The Lab
 

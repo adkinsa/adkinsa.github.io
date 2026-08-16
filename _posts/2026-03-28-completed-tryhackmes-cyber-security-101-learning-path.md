@@ -11,7 +11,7 @@ Over the past few months, I've really been grinding away at TryHackMe, and I'm h
 
 ## The learning path
 
-The Cyber Security 101 learning path consisted of 14 modules and 56 hands-on labs or rooms. This included a wide range of topics, such as Windows and Linux fundamentals, exploitation basics, web hacking, and more. You can view a complete list of the learning path, including its modules and rooms, on the TryHackMe website [here](https://tryhackme.com/path/outline/cybersecurity101){:target="_blank"}.
+The Cyber Security 101 learning path consisted of 14 modules and 56 hands-on labs or rooms. This included a wide range of topics, such as Windows and Linux fundamentals, exploitation basics, web hacking, and more. You can view a complete list of the learning path, including its modules and rooms, on the TryHackMe website [here](https://tryhackme.com/path/outline/cybersecurity101).
 
 The certificate says that the course duration was 45 hours. I worked on it over the course of several months, so I know I spent at least that much time on it, if not more. You definitely need to take your time completing it if you really want to absorb and retain all the information.
 

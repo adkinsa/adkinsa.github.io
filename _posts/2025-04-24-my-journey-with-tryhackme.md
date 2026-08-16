@@ -5,7 +5,7 @@ categories: [TryHackMe]
 tags: [tryhackme]
 ---
 
-In this post, I'm going to talk about my journey and experience with TryHackMe. If you're not familiar with TryHackMe, it's an online learning platform for Cybersecurity training. They offer a hands-on learning experience with various learning paths to choose from, which you can learn more about on their website [here](https://tryhackme.com/){:target="_blank"}. Since starting my journey with TryHackMe, I've found it to be an invaluable resource for learning and building my skillset, and I highly recommend it to anyone interested in Cybersecurity.
+In this post, I'm going to talk about my journey and experience with TryHackMe. If you're not familiar with TryHackMe, it's an online learning platform for Cybersecurity training. They offer a hands-on learning experience with various learning paths to choose from, which you can learn more about on their website [here](https://tryhackme.com/). Since starting my journey with TryHackMe, I've found it to be an invaluable resource for learning and building my skillset, and I highly recommend it to anyone interested in Cybersecurity.
 
 ## My progress so far
 

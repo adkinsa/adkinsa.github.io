@@ -9,7 +9,7 @@ In this post, I'm going to go over the steps I took to add a custom domain to my
 
 ## Step 1: Register domain
 
-The first thing I did was register my domain, `aaronjadkins.com`, with <a href="https://porkbun.com/" target="_blank">Porkbun</a>.
+The first thing I did was register my domain, `aaronjadkins.com`, with [Porkbun](https://porkbun.com).
 
 ## Step 2: Add domain to GitHub Pages
 
@@ -19,7 +19,7 @@ I added my domain to GitHub Pages by going to my GitHub Pages repository > setti
 
 ## Step 3: Configure DNS records
 
-The next step was to configure the domain's DNS records. This process was fairly simple thanks to Porkbun's quick DNS configuration. However, if your domain registrar doesn't have a quick DNS configuration, you can refer to the GitHub Pages <a href="https://docs.github.com/en/pages" target="_blank">documentation</a> for help with managing DNS records.
+The next step was to configure the domain's DNS records. This process was fairly simple thanks to Porkbun's quick DNS configuration. However, if your domain registrar doesn't have a quick DNS configuration, you can refer to the GitHub Pages [documentation](https://docs.github.com/en/pages) for help with managing DNS records.
 
 To configure the records, I navigated to the domain management settings on Porkbun and clicked on DNS records. Then I scrolled down to the quick DNS configuration section and clicked on GitHub.
 
@@ -39,4 +39,4 @@ Finally, once the DNS check was successful, I selected the option to enforce HTT
 
 ![GitHub Pages settings page showing DNS check successful and Enforce HTTPS checked](https://res.cloudinary.com/do8uy1fxa/image/upload/v1740454722/github-pages-settings-dns-check-successful-and-enforce-https-checked_placyj.png)
 
-The site is now live at <a href="https://aaronjadkins.com/" target="_blank">https://aaronjadkins.com/</a>.
+The site is now live at [https://aaronjadkins.com](https://aaronjadkins.com).

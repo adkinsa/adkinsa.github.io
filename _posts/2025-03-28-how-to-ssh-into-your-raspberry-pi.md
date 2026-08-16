@@ -69,7 +69,7 @@ or
 
 On Windows you will need an SSH client. In this example we will be using PuTTY.
 
-1\. Download PuTTY from [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html){:target="_blank"}
+1\. Download PuTTY from [https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 2\. Open PuTTY
 

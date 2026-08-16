@@ -5,15 +5,15 @@ categories: [Proxmox]
 tags: [proxmox, windows 11]
 ---
 
-This post will provide you with a step-by-step guide on how to install Windows 11 on Proxmox. When installing Windows 11 on Proxmox, you'll need the VirtIO drivers. You should also keep in mind the minimum system requirements for Windows 11. The system requirements for Windows 11 can be found on Microsoft's official website [here](https://www.microsoft.com/en-us/windows/windows-11-specifications){:target="_blank"}.
+This post will provide you with a step-by-step guide on how to install Windows 11 on Proxmox. When installing Windows 11 on Proxmox, you'll need the VirtIO drivers. You should also keep in mind the minimum system requirements for Windows 11. The system requirements for Windows 11 can be found on Microsoft's official website [here](https://www.microsoft.com/en-us/windows/windows-11-specifications).
 
 ## Step 1: Download Windows 11 and VirtIO drivers ISO images
 
-1\. Download the Windows 11 ISO from [https://www.microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11){:target="_blank"}.
+1\. Download the Windows 11 ISO from [https://www.microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11).
 
 ![Windows 11 download page](https://res.cloudinary.com/do8uy1fxa/image/upload/v1760719268/windows-11-download-page_rgjelh.png)
 
-2\. Download the VirtIO drivers ISO from [https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers){:target="_blank"} by clicking on **download the most recent** under the **Installation** section.
+2\. Download the VirtIO drivers ISO from [https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers](https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers) by clicking on **download the most recent** under the **Installation** section.
 
 ![VirtIO drivers download page](https://res.cloudinary.com/do8uy1fxa/image/upload/v1760719226/virtio-drivers-download-page_aks5ot.png)
 

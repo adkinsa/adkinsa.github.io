@@ -5,7 +5,7 @@ categories: [Proxmox]
 tags: [proxmox]
 ---
 
-This post provides a quick overview of the steps I took to install and set up Proxmox in my homelab. I chose Proxmox over alternative hypervisors because it's open source and is widely recommended in the homelab community. There is also a large community to turn to for support, including resources such as the official [Proxmox community forum](https://forum.proxmox.com/){: target="_blank"} and the subreddit [r/Proxmox](https://www.reddit.com/r/Proxmox/){: target="_blank"}.
+This post provides a quick overview of the steps I took to install and set up Proxmox in my homelab. I chose Proxmox over alternative hypervisors because it's open source and is widely recommended in the homelab community. There is also a large community to turn to for support, including resources such as the official [Proxmox community forum](https://forum.proxmox.com/) and the subreddit [r/Proxmox](https://www.reddit.com/r/Proxmox/).
 
 ## Hardware
 
@@ -17,13 +17,13 @@ In this section, I'm going to go over the steps I took to install and set up Pro
 
 ### Step 1: Download Proxmox ISO
 
-The first step I took was to download the Proxmox VE 8.4 ISO from [proxmox.com/en/downloads](https://www.proxmox.com/en/downloads){: target="_blank"}.
+The first step I took was to download the Proxmox VE 8.4 ISO from [proxmox.com/en/downloads](https://www.proxmox.com/en/downloads).
 
 ![Screenshot of the Proxmox downloads page at proxmox.com/en/downloads](https://res.cloudinary.com/do8uy1fxa/image/upload/v1748624088/proxmox-iso-downloads-page_n5cnuv.png)
 
 ### Step 2: Create a bootable flash drive with Proxmox ISO
 
-To create a bootable flash drive, I used Rufus, which can be downloaded from [rufus.ie/en/](https://rufus.ie/en/){: target="_blank"}.
+To create a bootable flash drive, I used Rufus, which can be downloaded from [rufus.ie/en/](https://rufus.ie/en/).
 
 ![Screenshot of Rufus with onn 16GB flash drive and Proxmox VE 8.4 ISO selected](https://res.cloudinary.com/do8uy1fxa/image/upload/v1748624050/creating-proxmox-bootable-flash-drive-with-rufus_nv7yfy.png)
 
@@ -47,7 +47,7 @@ After the installation was complete, I accessed the Proxmox Server Web UI by ope
 
 ### Step 6: Create a virtual machine
 
-The last thing I did was create an Ubuntu Desktop VM. To do this, I first downloaded the Ubuntu 24.04.2 LTS ISO image from [ubuntu.com/download/desktop](https://ubuntu.com/download/desktop){: target="_blank"} and then followed a tutorial on creating a VM in Proxmox.
+The last thing I did was create an Ubuntu Desktop VM. To do this, I first downloaded the Ubuntu 24.04.2 LTS ISO image from [ubuntu.com/download/desktop](https://ubuntu.com/download/desktop) and then followed a tutorial on creating a VM in Proxmox.
 
 ![Screenshot of Proxmox Server Web UI with Ubuntu 24.04.2 LTS VM](https://res.cloudinary.com/do8uy1fxa/image/upload/v1748624126/proxmox-webui-ubuntu-vm_gz9zn4.png)
 

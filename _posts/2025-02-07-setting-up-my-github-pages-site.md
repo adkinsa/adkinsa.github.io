@@ -11,22 +11,22 @@ In this post, I'm going to go over how I set up my website with Jekyll and GitHu
 
 To set up a local testing environment I installed the following tools:
 
-* <a href="https://git-scm.com/downloads" target="_blank">Git</a>
-* <a href="https://rubyinstaller.org/downloads/" target="_blank">Ruby</a>
+* [Git](https://git-scm.com/downloads)
+* [Ruby](https://rubyinstaller.org/downloads/)
 * Jekyll
-* <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>
+* [VS Code](https://code.visualstudio.com/download)
 
 ## Step 1: Install prerequisites
 
-1\. First, I installed <a href="https://git-scm.com/downloads" target="_blank">Git</a>.
+1\. First, I installed [Git](https://git-scm.com/downloads).
 
-2\. Next, I installed <a href="https://rubyinstaller.org/downloads/" target="_blank">Ruby</a>. Once the Ruby installation setup was complete, I chose **"Run ridk install"** and clicked finish. Then, a command prompt window for Ruby Installer 2 opened, and I installed all 3 components one at a time by entering the corresponding number and pressing enter.
+2\. Next, I installed [Ruby](https://rubyinstaller.org/downloads/). Once the Ruby installation setup was complete, I chose **"Run ridk install"** and clicked finish. Then, a command prompt window for Ruby Installer 2 opened, and I installed all 3 components one at a time by entering the corresponding number and pressing enter.
 
 ![Ruby installer 2 for Windows command prompt](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738935315/ridk-install-command-prompt_pwhghq.png)
 
 3\. Next, I installed **Jekyll** by opening a command prompt and running the command `gem install jekyll`.
 
-4\. Lastly, I installed <a href="https://code.visualstudio.com/download" target="_blank">VS Code</a>.
+4\. Lastly, I installed [VS Code](https://code.visualstudio.com/download).
 
 ## Step 2: Create a GitHub account
 
@@ -34,7 +34,7 @@ The next thing I did was create a GitHub account.
 
 ## Step 3: Create a new repository
 
-Next, I created a new repository using the <a href="https://github.com/cotes2020/jekyll-theme-chirpy" target="_blank">Chirpy</a> Jekyll theme by going to the <a href="https://github.com/cotes2020/chirpy-starter" target="_blank">chirpy-starter</a> repository and clicking "use this template" and "create a new repository". You can find other themes by visiting one of the many Jekyll theme sites listed <a href="https://jekyllrb.com/docs/themes/" target="_blank">here</a>.
+Next, I created a new repository using the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) Jekyll theme by going to the [chirpy-starter](https://github.com/cotes2020/chirpy-starter) repository and clicking "use this template" and "create a new repository". You can find other themes by visiting one of the many Jekyll theme sites listed [here](https://jekyllrb.com/docs/themes/).
 
 ![chirpy-starter repository page](https://res.cloudinary.com/do8uy1fxa/image/upload/v1738935201/chirpy-starter-repo_z4sxnz.png)
 

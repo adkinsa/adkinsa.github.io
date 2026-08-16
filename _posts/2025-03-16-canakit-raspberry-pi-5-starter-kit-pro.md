@@ -5,7 +5,7 @@ categories: [Raspberry Pi]
 tags: [raspberry pi]
 ---
 
-In this post, I'm going to share my experience with the CanaKit Raspberry Pi 5 Starter Kit PRO and walk you through assembling the Raspberry Pi 5. I've decided to start experimenting more with homelabbing and thought that a Raspberry Pi would be a good starting point. Since this is my first Raspberry Pi, I decided to purchase a complete starter kit and go with the [CanaKit Raspberry Pi 5 Starter Kit PRO - Turbine Black (128GB Edition) (8GB RAM)](https://www.amazon.com/CanaKit-Raspberry-Starter-Kit-PRO/dp/B0CRSNCJ6Y/ref=sr_1_1?crid=20O4N95DO5U3&dib=eyJ2IjoiMSJ9.gER6ai2B6BUf_1KSPtGdIoWCTXoXY2rt7NNwgXOEScLQ-D8IWoMmKsSQXkVoIeIU1MPgldeXhRf3we6rg57sxfAz2zgx9vhDm6oTBLJ_043WJ4Bcj4wZaq0iiaITj3mtnCK3nN6v-znLQffk7UrJr6I1rcnPdzV0O14-P2CePYfar6opYUPdRir_dk-TrN_tOfJMn8O8G-ppyCqhUEPbHobGYAiI7KvWkswfaFIPpFs.CLQBa44bfPAD4LFH4J3_114pNHH-_7sVYOmi9Qd7Hgs&dib_tag=se&keywords=raspberry%2Bpi%2B5&qid=1742147970&sprefix=raspberry%2Bpi%2B5%2Caps%2C117&sr=8-1&th=1){:target="_blank"} on Amazon for $159. My plan is to utilize the Raspberry Pi as a homelab and to experiment with running different services.
+In this post, I'm going to share my experience with the CanaKit Raspberry Pi 5 Starter Kit PRO and walk you through assembling the Raspberry Pi 5. I've decided to start experimenting more with homelabbing and thought that a Raspberry Pi would be a good starting point. Since this is my first Raspberry Pi, I decided to purchase a complete starter kit and go with the [CanaKit Raspberry Pi 5 Starter Kit PRO - Turbine Black (128GB Edition) (8GB RAM)](https://www.amazon.com/CanaKit-Raspberry-Starter-Kit-PRO/dp/B0CRSNCJ6Y/ref=sr_1_1?crid=20O4N95DO5U3&dib=eyJ2IjoiMSJ9.gER6ai2B6BUf_1KSPtGdIoWCTXoXY2rt7NNwgXOEScLQ-D8IWoMmKsSQXkVoIeIU1MPgldeXhRf3we6rg57sxfAz2zgx9vhDm6oTBLJ_043WJ4Bcj4wZaq0iiaITj3mtnCK3nN6v-znLQffk7UrJr6I1rcnPdzV0O14-P2CePYfar6opYUPdRir_dk-TrN_tOfJMn8O8G-ppyCqhUEPbHobGYAiI7KvWkswfaFIPpFs.CLQBa44bfPAD4LFH4J3_114pNHH-_7sVYOmi9Qd7Hgs&dib_tag=se&keywords=raspberry%2Bpi%2B5&qid=1742147970&sprefix=raspberry%2Bpi%2B5%2Caps%2C117&sr=8-1&th=1) on Amazon for $159. My plan is to utilize the Raspberry Pi as a homelab and to experiment with running different services.
 
 ## Starter Kit Contents
 
@@ -24,7 +24,7 @@ Here is a list of everything that is included in the starter kit:
 
 ## Assembly
 
-Assembling the Raspberry Pi 5 was simple and straightforward, and there is even a [setup guide](https://www.canakit.com/pi5-case){:target="_blank"} you can watch. I just assembled it on my own.
+Assembling the Raspberry Pi 5 was simple and straightforward, and there is even a [setup guide](https://www.canakit.com/pi5-case) you can watch. I just assembled it on my own.
 
 ### Raspberry Pi 5 board
 
@@ -70,7 +70,7 @@ Attach the top casing to the Pi case to finish the assembly.
 
 ### Step 7: Insert MicroSD card
 
-Insert the MicroSD card into the MicroSD card slot on the Raspberry Pi 5. The MicroSD card included in the kit comes pre-loaded with Pi OS. If your using another SD card, you can download the Raspberry Pi Imager from [raspberrypi.com/software](https://www.raspberrypi.com/software/){:target="_blank"} to create a bootable SD card.
+Insert the MicroSD card into the MicroSD card slot on the Raspberry Pi 5. The MicroSD card included in the kit comes pre-loaded with Pi OS. If your using another SD card, you can download the Raspberry Pi Imager from [raspberrypi.com/software](https://www.raspberrypi.com/software/) to create a bootable SD card.
 
 ![MicroSD card inserted into MicroSD card slot on Raspberry Pi 5](https://res.cloudinary.com/do8uy1fxa/image/upload/v1742142992/pi-os-microsd-card-inserted-into-pi-5-sd-card-slot_jksmtu.jpg)
 

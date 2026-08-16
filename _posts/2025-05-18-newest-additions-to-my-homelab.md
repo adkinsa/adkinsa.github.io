@@ -5,7 +5,7 @@ categories: [Homelab]
 tags: [homelab]
 ---
 
-One of the projects I've been working on this year has been building my homelab. Since this is my first real attempt at building a homelab, I've been learning as I go and have gained a lot of inspiration from the subreddits [r/homelab](https://www.reddit.com/r/homelab/){: target="_blank"} and [r/minilab](https://www.reddit.com/r/minilab/){: target="_blank"}. I started out with a Raspberry Pi 5 and have slowly been working on introducing new hardware and equipment. In this post, I'm going to provide an update on some of the newest additions I've made to my homelab.
+One of the projects I've been working on this year has been building my homelab. Since this is my first real attempt at building a homelab, I've been learning as I go and have gained a lot of inspiration from the subreddits [r/homelab](https://www.reddit.com/r/homelab/) and [r/minilab](https://www.reddit.com/r/minilab/). I started out with a Raspberry Pi 5 and have slowly been working on introducing new hardware and equipment. In this post, I'm going to provide an update on some of the newest additions I've made to my homelab.
 
 Newest additions:
 

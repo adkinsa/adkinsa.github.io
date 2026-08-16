@@ -11,7 +11,7 @@ After looking into various alternatives for self-hosting on the Raspberry Pi, I 
 
 ## Installing CasaOS
 
-The first thing I did was go to the CasaOS website at [https://casaos.zimaspace.com/](https://casaos.zimaspace.com/){:target="_blank"}.
+The first thing I did was go to the CasaOS website at [https://casaos.zimaspace.com/](https://casaos.zimaspace.com/).
 
 ![Screenshot of casaos.zimaspace.com landing page](https://res.cloudinary.com/do8uy1fxa/image/upload/v1744852048/casaos-website_fs5gvz.png)
 

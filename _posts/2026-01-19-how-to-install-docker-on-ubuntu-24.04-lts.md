@@ -5,7 +5,7 @@ categories: [Docker]
 tags: [docker, linux]
 ---
 
-This post provides a step-by-step guide on how to install Docker on Ubuntu 24.04 LTS. The official [Docker documentation](https://docs.docker.com/engine/install/ubuntu/){: target="_blank"} outlines several methods for installing Docker on Ubuntu. This guide focuses on installing Docker using the apt repository.
+This post provides a step-by-step guide on how to install Docker on Ubuntu 24.04 LTS. The official [Docker documentation](https://docs.docker.com/engine/install/ubuntu/) outlines several methods for installing Docker on Ubuntu. This guide focuses on installing Docker using the apt repository.
 
 ## Prerequisites
 

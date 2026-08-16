@@ -5,17 +5,17 @@ categories: [Linux]
 tags: [linux]
 ---
 
-I recently installed Kali Linux on VirtualBox to use as an attack machine for completing rooms on [TryHackMe](https://tryhackme.com/){:target="_blank"}. So, I decided to write a step-by-step walkthrough of the installation process. In this post, I will walk you through the steps to obtain the Kali Linux ISO and install Kali Linux on VirtualBox.
+I recently installed Kali Linux on VirtualBox to use as an attack machine for completing rooms on [TryHackMe](https://tryhackme.com/). So, I decided to write a step-by-step walkthrough of the installation process. In this post, I will walk you through the steps to obtain the Kali Linux ISO and install Kali Linux on VirtualBox.
 
 Before getting started, make sure that virtualization is enabled in your computer's BIOS.
 
 ## Step 1: Download and install VirtualBox
 
-Download and install VirtualBox from [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads){:target="_blank"}.
+Download and install VirtualBox from [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads).
 
 ## Step 2: Download Kali Linux ISO
 
-1\. Go to [https://www.kali.org/](https://www.kali.org/){:target="_blank"}.
+1\. Go to [https://www.kali.org/](https://www.kali.org/).
 
 ![Screenshot of kali.org](https://res.cloudinary.com/do8uy1fxa/image/upload/v1743871841/kali.org_ooae21.png)
 
